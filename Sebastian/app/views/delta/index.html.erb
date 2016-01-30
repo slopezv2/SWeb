@@ -11,10 +11,10 @@
     <title>Landed by HTML5 UP</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="../../assets/javascripts/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="../../assets/stylesheets/main.css" />
-    <!--[if lte IE 9]><link rel="stylesheet" href="../../assets/stylesheets/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" href="../../assets/stylesheets/ie8.css" /><![endif]-->
+    <!--[if lte IE 8]><script src="/assets/javascripts/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/assets/stylesheets/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="/assets/stylesheets/ie8.css" /><![endif]-->
   </head>
   <body class="landing">
     <div id="page-wrapper">
@@ -56,14 +56,15 @@
 	    <p>And there are no hoverboards or flying cars.<br />
 	      Just apps. Lots of mother flipping apps.</p>
 	  </header>
-	  <span class="image"><img src="../../assets/images/pic01.jpg" alt="No" /></span>
+	  <span class="image"><%= image_tag("pic01.jpg", :alt => "No disponible") %></span>
 	</div>
 	<a href="#one" class="goto-next scrolly">Next</a>
       </section>
 
       <!-- One -->
       <section id="one" class="spotlight style1 bottom">
-	<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+	<span class="image fit main">	  <span class="image"><%= image_tag("pic02.jpg", :alt => "No disponible") %></span>
+</span>
 	<div class="content">
 	  <div class="container">
 	    <div class="row">
@@ -95,7 +96,8 @@
 
       <!-- Two -->
       <section id="two" class="spotlight style2 right">
-	<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+	<span class="image fit main">	  <span class="image"><%= image_tag("pic03.jpg", :alt => "No disponible") %></span>
+</span>
 	<div class="content">
 	  <header>
 	    <h2>Interdum amet non magna accumsan</h2>
@@ -111,7 +113,7 @@
 
       <!-- Three -->
       <section id="three" class="spotlight style3 left">
-	<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+	<span class="image fit main bottom"><%= image_tag("pic04.jpg", :alt => "No disponible") %></span>
 	<div class="content">
 	  <header>
 	    <h2>Interdum felis blandit praesent sed augue</h2>
@@ -206,16 +208,5 @@
       </footer>
 
     </div>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="assets/js/main.js"></script>
-
   </body>
   </html>
