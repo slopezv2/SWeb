@@ -38,7 +38,7 @@
 	  </header>
 	  <span class="image"><%= image_tag("logo3.png", :alt => "No disponible") %></span>
 	</div>
-	<a href="#one" class="goto-next scrolly">Next</a>
+	<a href="#one" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
       </section>
 
       <!-- One -->
@@ -64,7 +64,7 @@
 	    </div>
 	  </div>
 	</div>
-	<a href="#two" class="goto-next scrolly">Next</a>
+	<a href="#two" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
       </section>
 
       <!-- Two -->
@@ -81,7 +81,7 @@ Generamos una identidad corporativa, que nos permite brindar los mejores benefic
 </p>
 	  
 	</div>
-	<a href="#three" class="goto-next scrolly">Next</a>
+	<a href="#three" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
       </section>
 
       <!-- Three -->
@@ -96,7 +96,7 @@ Generamos una identidad corporativa, que nos permite brindar los mejores benefic
 </p>
 	  
 	</div>
-	<a href="#four" class="goto-next scrolly">Next</a>
+	<a href="#four" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
       </section>
     
     <!-- four -->
@@ -112,7 +112,7 @@ Generamos una identidad corporativa, que nos permite brindar los mejores benefic
 </p>
 	  
 	</div>
-	<a href="#five" class="goto-next scrolly">Next</a>
+	<a href="#five" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
       </section>
 
 <!-- five -->
@@ -128,7 +128,7 @@ Generamos una identidad corporativa, que nos permite brindar los mejores benefic
 </p>
 	  
 	</div>
-	<a href="#six" class="goto-next scrolly">Next</a>
+	<a href="#six" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
       </section>
 
 <!-- six -->
@@ -144,7 +144,7 @@ Generamos una identidad corporativa, que nos permite brindar los mejores benefic
 </p>
 	  
 	</div>
-	<a href="#seven" class="goto-next scrolly">Next</a>
+	<a href="#seven" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
       </section>
 
 <!-- seven -->
@@ -167,7 +167,7 @@ Generamos una identidad corporativa, que nos permite brindar los mejores benefic
         </ul>
          
 	</div>
-	<a href="#eight" class="goto-next scrolly">Next</a>
+	<a href="#eight" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
       </section>
 
 <!-- eight -->
@@ -176,7 +176,7 @@ Generamos una identidad corporativa, que nos permite brindar los mejores benefic
 </span>
 	<div class="content">
 	  <header>
-	    <h2>material promocional </h2>
+	    <h2>Material promocional </h2>
 	    
 	  </header>
 	  <p>Ofrecemos una gran variedad de productos, para que su empresa pueda ser recordada por cada uno de sus clientes.
@@ -186,7 +186,7 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
 </p>
 	  
 	</div>
-	<a href="#nine" class="goto-next scrolly">Next</a>
+	<a href="#nine" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
       </section>
 
       <!-- nine -->
@@ -226,9 +226,8 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
       <!-- Footer -->
       <footer id="footer">
 	<ul class="icons">
-	  <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-	  <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-	  <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+	  <li><a href="#"><%= fa_icon "twitter" %></a></li>
+	  <li><a href="#"><%= image_tag("facebookIcon.png", :alt => "No disponible") %></a></li>
 	  <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
 	  <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
 	  <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
