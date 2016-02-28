@@ -1,0 +1,235 @@
+<!DOCTYPE HTML>
+<!--
+    Landed by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  -->
+<html>
+  <head>
+    <title>idlab</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="/assets/javascripts/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/assets/stylesheets/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="/assets/stylesheets/ie8.css" /><![endif]-->
+  </head>
+  <body class="landing">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header">
+	<h1 id="logo"><a href="index.html"></a></h1>
+	<nav id="nav">
+	  <ul>
+	    <li><a href="#ten" class="button special scrolly">Contáctanos</a></li>
+	  </ul>
+	</nav>
+      </header>
+      <!-- Banner -->
+      <section id="banner">
+	<div class="content">
+	  <header>
+	    <h2></h2>
+	    <p>"Todos nuestros sueños pueden hacerse realidad si tenemos la valentia de perseguirlos"
+            (walt Disney)</p>
+	  </header>
+	  <span class="image"><%= image_tag("logo3.png", :alt => "No disponible") %></span>
+	</div>
+	<a href="#one" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next', size: '50%*50%') %>Next</a>
+      </section>
+      <!-- One -->
+      <section id="one" class="spotlight style1 bottom">
+          <span class="image fit main">	  <%= image_tag("primera.jpg", :alt => "No disponible" ) %></span>
+</span>
+	<div class="content">
+	  <div class="container">
+	    <div class="row">
+	      <div class="4u 12u$(medium)">
+		<header>
+		  <h2>Estrategias a medida de nuestros clientes</h2>  
+		</header>
+	      </div>
+	      <div class="4u 12u$(medium)">
+		<p>Id Lab es una agencia de publicidad integral que ofrece soluciones estratégicas pensadas y desarrolladas a través de actividades de comunicación y diseño vanguardista, logrando optimizar recursos, ofreciendo la seguridad y el acompañamiento necesario para que puedan continuar  con sus labores y así poder guiarlos al éxito comercial y empresarial.
+</p>
+	      </div>
+	      <div class="4u$ 12u$(medium)">
+		<p>En Id Lab garantizamos el cumplimiento de nuestros servicios con el desarrollo de estrategias de comunicación corporativa, altos estándares de calidad y pactos de entrega oportuna, ajustadas a sus necesidades y diseñadas según los requerimientos de nuestros clientes. Para esto, contamos con profesionales calificados y con gran trayectoria laboral que promueven el desarrollo de estrategias que faciliten el correcto funcionamiento de su compañía.</p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<a href="#two" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
+      </section>
+
+      <!-- Two -->
+      <section id="two" class="spotlight style2 right">
+	<span class="image fit main">	  <%= image_tag("mision.jpg", :alt => "No disponible") %></span>
+</span>
+	<div class="content">
+	  <header>
+	    <h2>Misión</h2>
+	    
+	  </header>
+	  <p>Somos una agencia de Marketing y Publicidad, creada y conformada para generar ideas innovadoras por medio de estrategias generadas para que su empresa se posicione en el mercado. Nuestras principales metas nos llevan a diario a posicionar a nuestros clientes dentro de un mercado tan competitivo.
+Generamos una identidad corporativa, que nos permite brindar los mejores beneficios de crecimiento e inversión, es así como logramos que nuestras marcas ocupen los primeros lugares con un modelo de comunicación único en el mercado.
+</p>
+	  
+	</div>
+	<a href="#three" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
+      </section>
+
+      <!-- Three -->
+      <section id="three" class="spotlight style3 left">
+	<span class="image fit main bottom"><%= image_tag("vision.jpg", :alt => "No disponible") %></span>
+	<div class="content">
+	  <header>
+	    <h2>Visión</h2>
+	    
+	  </header>
+	  <p>Id Lab se proyecta para el 2016 como una agencia de Publicidad y Marketing, que genera nuevos lenguajes y medios de comunicación, ampliando su cobertura a nivel internacional, llegando así a cambiar y mejorar muchos métodos que actualmente se trabajan en el medio. Evolucionamos para convertirnos en una de las mejores agencias, no solo por nuestro talento humano, sino porque creemos que con todas las marcas podemos generar cambios que marquen, nuevas tendencias en un mercado.
+</p>
+	  
+	</div>
+	<a href="#four" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
+      </section>
+    
+    <!-- four -->
+      <section id="four" class="spotlight style2 right">
+          <span class="image fit main">	  <%= image_tag("diseno.jpg", :alt => "No disponible") %></span>
+</span>
+	<div class="content">
+	  <header>
+	    <h2>Diseño</h2>
+	    
+	  </header>
+	  <p>A través del diseño logramos crear conceptos únicos para cada marca, basados en las tendencias que el consumidor prefiere. Nuestro objetivo es crear un lazo comunicativo entre la marca, y su público objetivo, ofreciendo un conjunto de servicios adaptables, según las necesidades de su marca.
+</p>
+	  
+	</div>
+	<a href="#five" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
+      </section>
+
+<!-- five -->
+      <section id="five" class="spotlight style3 left">
+          <span class="image fit main bottom"><%= image_tag("web.jpg", :alt => "No disponible") %></span>
+	<div class="content">
+	  <header>
+	    <h2>Desarrollo web</h2>
+	    
+	  </header>
+	  <p>En la actualidad  toda empresa, organización, no importa el tamaño, debe tener un sitio Web.  Está demostrado que la intensidad en la aplicación de nuevas tecnologías y la incorporación de un Sitio Web, está correlacionado de manera positiva con el incremento de las ventas, la productividad y el valor de mercado de las empresas.
+          En Id Lab generamos e implementamos toda una estrategia enfocada a generarle el valor que su marca necesita.
+</p>
+	  
+	</div>
+	<a href="#six" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
+      </section>
+
+<!-- six -->
+      <section id="six" class="spotlight style2 right">
+          <span class="image fit main">	  <%= image_tag("mark.jpg", :alt => "No disponible") %></span>
+</span>
+	<div class="content">
+	  <header>
+	    <h2>Marketing digital</h2>
+	    
+	  </header>
+	  <p>Somos especialistas trabajando en la creación de nuevas estrategias de mercado, las cuales brinden herramientas avanzadas a nuestros clientes además de facilitar y agilizar el proceso de comercialización de sus productos o servicios. Apoyados en el e-marketing generamos diversos tipos de campañas que busca posicionarse en la mente de los consumidores.
+</p>
+	  
+	</div>
+	<a href="#seven" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
+      </section>
+
+<!-- seven -->
+      <section id="seven" class="spotlight style3 left">
+          <span class="image fit main bottom"><%= image_tag("Produc.jpg", :alt => "No disponible") %></span>
+	<div class="content">
+	  <header>
+	    <h2>Producción audiovisual</h2> 
+	  </header>
+        <p>Desarrollamos conceptos que permiten mover a las marcas en un mercado tan competitivo generando confianza entre su público objetivo, mostrando productos audiovisuales de alta calidad que permiten mostrar todos los atributos de la marca o el producto, logrando así una comunicación mas agradable al consumidor.</p>
+<ul type=circle>    
+<li>Videos Corporativos e Institucionales
+<li>Producción y post- producción de video
+<li>Comerciales publicitarios o promocionales
+<li>Cubrimiento de eventos
+<li>Documentales y Crónicas
+<li>Catálogos Audiovisuales
+<li>Reportajes y entrevistas
+<li>Fotografía profesional y Aérea
+        </ul>
+         
+	</div>
+	<a href="#eight" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
+      </section>
+
+<!-- eight -->
+      <section id="eight" class="spotlight style2 right">
+	<span class="image fit main">	  <%= image_tag("pop.jpg", :alt => "No disponible") %></span>
+</span>
+	<div class="content">
+	  <header>
+	    <h2>Material promocional </h2>
+	    
+	  </header>
+	  <p>Ofrecemos una gran variedad de productos, para que su empresa pueda ser recordada por cada uno de sus clientes.
+Los productos P.O.P son un método utilizado, cuando una marca no posee recursos económicos para pautar en televisión o radio, puede apoyarse en estos materiales, ya que se convierten en una excelente herramienta.
+A partir de esto, cuando una empresa ya está posicionada en el mercado debe buscar formas innovadoras y creativas de fidelizar a los clientes para que se genere una confianza empresarial.
+Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mientras la posiciona en el mercado.
+</p>
+	  
+	</div>
+	<a href="#nine" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
+      </section>
+
+      <!-- nine -->
+      <section id="nine" class="wrapper style1 special fade-up">
+	<div class="container">
+	  <header class="major">
+	    <h2>Accumsan sed tempus adipiscing blandit</h2>
+	    <p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+	  </header>
+	  <div class="box alt">
+	    
+	  </div>
+	  <footer class="major">
+	    <ul class="actions">
+	      <li><a href="#" class="button">Volver al inicio</a></li>
+	    </ul>
+	  </footer>
+	</div>
+      </section>
+
+      <!-- ten -->
+      <section id="ten" class="wrapper style2 special fade">
+	<div class="container">
+	  <header>
+	    <h2>Contáctanos</h2>
+	    <p>Por medio del correo que suministre le contactaremos</p>
+	  </header>
+	  <%=  form_for(:correo, url:correo_path, class:"container 50%") do |f| %>
+	    <div class="row uniform 50%">
+	      <div class="8u 12u$(xsmall)"><% f.text_field :correo" id="correo" placeholder="micorreo@ejemplo.com" /></div>
+	      <div class="4u$ 12u$(xsmall)"> <button class="fit special" >Enviar<button/></div>
+	    </div>
+	  </div>
+	</div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+	<ul class="icons">
+	  <li><a href="https://www.facebook.com/id.labco"><%= image_tag("facebookIcon.png", :alt => "No disponible") %></a></li>
+	  <li><a href="#"><%= image_tag("instagranIcon.png", :alt => "No disponible") %></a></li>
+       <li><a href="#"><%= image_tag("correoIcon.png", :alt => "No disponible") %></a></li>
+	</ul>
+	<ul class="copyright">
+	  <li>&copy; Platino Sotware. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+	</ul>
+      </footer>
+
+    </div>
+  </body>
+  </html>

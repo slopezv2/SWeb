@@ -35,11 +35,11 @@
 	  </header>
 	  <span class="image"><%= image_tag("logo3.png", :alt => "No disponible") %></span>
 	</div>
-	<a href="#one" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next') %>Next</a>
+	<a href="#one" class="goto-next scrolly"><%= inline_svg("arrow.svg", class: 'goto-next', size: '50%*50%') %>Next</a>
       </section>
       <!-- One -->
       <section id="one" class="spotlight style1 bottom">
-          <span class="image fit main">	  <%= image_tag("primera.jpg", :alt => "No disponible") %></span>
+          <span class="image fit main">	  <%= image_tag("primera.jpg", :alt => "No disponible" ) %></span>
 </span>
 	<div class="content">
 	  <div class="container">
@@ -204,18 +204,18 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
 
       <!-- ten -->
       <section id="ten" class="wrapper style2 special fade">
-	<div class="container">
-	  <header>
-	    <h2>Contáctanos</h2>
+	   <div class="container">
+	   <header>
+           <h2>Contáctanos</h2>
 	    <p>Por medio del correo que suministre le contactaremos</p>
 	  </header>
-	  <form method="post" action="#" class="container 50%">
+           <%=  form_for(:correo, url:correo_path, class:"container 50%" ) do |f| %>
 	    <div class="row uniform 50%">
-	      <div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="micorreo@ejemplo.com" /></div>
-	      <div class="4u$ 12u$(xsmall)"><input type="submit" value="Enviar" class="fit special" /></div>
+            <div class="8u 12u$(xsmall)"><%= f.email_field :correo, placeholder:"micorreo@ejemplo.com" %></div>
+	      <div class="4u$ 12u$(xsmall)"> <%= f.submit "Enviar",  class: "fit special" %></div>
 	    </div>
-	  </form>
-	</div>
+        <% end %>
+	  </div>
       </section>
 
       <!-- Footer -->

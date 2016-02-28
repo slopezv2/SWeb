@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'delta#index'
 
+  #Enviar correo
+  post 'delta/enviar_co' => 'delta#enviar_co', as: 'correo'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
