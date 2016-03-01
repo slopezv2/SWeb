@@ -9,7 +9,7 @@ Rails.application.config.assets.precompile += %w( jquery.scrolly.min.js )
 Rails.application.config.assets.precompile += %w( skel.min.js )
 Rails.application.config.assets.precompile += %w( util.js )
 Rails.application.config.assets.precompile += %w( main.js )
-config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
+Rails.application.config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
 #OA Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 
