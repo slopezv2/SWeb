@@ -1,0 +1,15 @@
+// Place all the styles related to the delta controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+   font-family: 'mf';
+    src: asset-url('fonts/mfbold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2{
+    font-family: 'mf';
+    font: 100% 'mf';
+}
