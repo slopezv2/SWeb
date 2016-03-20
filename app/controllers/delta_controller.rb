@@ -6,7 +6,7 @@ class DeltaController < ApplicationController
     if correo_entrante[:correo]
       correo = correo_entrante[:correo]
         Contacto.enviar_contacto(correo).deliver_now
-        render root_url
+        redirect_to root_url
     end
   end
 
