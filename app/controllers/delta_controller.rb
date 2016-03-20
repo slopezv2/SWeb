@@ -1,13 +1,12 @@
 class DeltaController < ApplicationController
   def index
-    
   end
 
   def enviar_co
     if correo_entrante[:correo]
       correo = correo_entrante[:correo]
         Contacto.enviar_contacto(correo).deliver_now
-        redirect_to root_url
+        render root_url
     end
   end
 
