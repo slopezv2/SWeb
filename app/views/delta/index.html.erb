@@ -19,9 +19,20 @@
       <!-- Header -->
       <header id="header">
 	<h1 id="logo"><a href="index.html"></a></h1>
-	<nav id="nav">
+	<nav id="nav" >
 	  <ul>
-	    <li><a href="#ten" class="button special scrolly">Contáctanos</a></li>
+        <li><a href="#ten" class="button special scrolly">Contáctenos</a></li>
+        <% if mobile_device? %> 
+            <li><a href="#one" class="button special scrolly">Estrategias</a></li>  
+	        <li><a href="#two" class="button special scrolly">Misión</a></li>
+            <li><a href="#three" class="button special scrolly">Visión</a></li>  
+	        <li><a href="#four" class="button special scrolly">Diseño</a></li>
+            <li><a href="#five" class="button special scrolly">Desarrollo Web</a></li>  
+	        <li><a href="#six" class="button special scrolly">Marketing</a></li>
+            <li><a href="#seven" class="button special scrolly">Producción</a></li>  
+	        <li><a href="#eight" class="button special scrolly">Material</a></li>
+            <li><a href="#nine" class="button special scrolly">Clientes</a></li>
+        <% end %>
 	  </ul>
 	</nav>
       </header>
@@ -185,21 +196,15 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
       </section>
 
       <!-- nine -->
-      <section id="nine" class="wrapper style1 special fade-up">
+      <section id="nine" class="spotlight style2 right">
 	<div class="container">
 	  <header class="major">
-	    <h2>Accumsan sed tempus adipiscing blandit</h2>
-	    <p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+        <span class="image fit main bottom">	  <%= image_tag("Clientes.jpg", :alt => "No disponible") %></span>
 	  </header>
-	  <div class="box alt">
-	    
-	  </div>
-	  <footer class="major">
-	    <ul class="actions">
-	      <li><a href="#" class="button">Volver al inicio</a></li>
-	    </ul>
-	  </footer>
+
+	  
 	</div>
+    <a href="#ten" class="goto-next scrolly">Next</a>
       </section>
 
       <!-- ten -->
@@ -220,6 +225,9 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
 
       <!-- Footer -->
       <footer id="footer">
+	    <ul class="actions">
+	      <li><a href="#banner" class="button">Volver al inicio</a></li>
+	    </ul>
 	<ul class="icons">
 	  <li><a href="https://www.facebook.com/id.labco"><%= image_tag("facebookIcon.png", :alt => "No disponible") %></a></li>
 	  <li><a href="#"><%= image_tag("instagranIcon.png", :alt => "No disponible") %></a></li>
