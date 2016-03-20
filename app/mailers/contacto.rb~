@@ -1,3 +1,4 @@
 class Contacto < ApplicationMailer
   def enviar_contacto()
+  end
 end
