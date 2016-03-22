@@ -2,8 +2,6 @@
 <html>
 <head>
   <title>IDLabCo</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag "jquery.min" %>
   <%= javascript_include_tag "jquery.dropotron.min" %>
   <%= javascript_include_tag "jquery.scrolly.min" %>
@@ -11,6 +9,12 @@
   <%= javascript_include_tag "skel.min" %>
   <%= javascript_include_tag "util" %>
   <%= javascript_include_tag "main" %>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="/assets/javascripts/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/assets/stylesheets/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="/assets/stylesheets/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="/assets/stylesheets/ie8.css" /><![endif]-->
   <%= csrf_meta_tags %>
 </head>
 <body>

@@ -3449,7 +3449,7 @@
 	#banner {
 
     background-attachment: fixed;
-    background-color: #383949;
+
     background-image: url("assets/banner.jpg");
     background-position: center center;
     background-size: cover;
