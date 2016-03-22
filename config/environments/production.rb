@@ -80,6 +80,7 @@ Rails.application.configure do
 
   #Mailer
   config.action_mailer.delivery_method = :smtp
+  config.action_mailer.raise_delivery_errors = false
 # SMTP settings for gmail
   config.action_mailer.smtp_settings = {
      :address              => "smtp.gmail.com",
