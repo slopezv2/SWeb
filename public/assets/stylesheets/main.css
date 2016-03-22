@@ -1603,7 +1603,7 @@
 
     @font-face {
     font-family: 'mf'; /*a name to be used later*/
-    src: url('assets/fonts/mfbold.ttf'); /*URL to font*/
+    src: url('assets/fonts/mf.ttf'); /*URL to font*/
     font-size: 150%;
     }    
 	h1, h2, h3, h4, h5, h6 {
