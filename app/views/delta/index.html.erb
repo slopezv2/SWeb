@@ -198,46 +198,18 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
 
       <!-- ten -->
       <section id="ten" class="wrapper style2 special fade">
-	   <div class="container">
-           <div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
-								<div class="field">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
-								</div>
-
-								<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="4"></textarea>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-							<ul class="contact">
-								<li class="fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
-								</li>
-								<li class="fa-phone">(000) 000-0000</li>
-								<li class="fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="fa-facebook"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
-							</ul>
-							
-						</div>
+	  <div class="container">					
 	   <header>
            <h2><B>Contáctanos</B></h2>
            <p><B>Por medio del correo que suministre le contactaremos</B></p>
 	  </header>
            <%=  form_for(:correo, url:correo_path, class:"container 50%" ) do |f| %>
 	    <div class="row uniform 50%">
+           
+            <div class="8u 12u$(xsmall)"><%= f.text_field :nombre, placeholder:"Ej: Juan Fernandez" %></div>
+            <div class="4u$ 12u$(xsmall) fit special"><p><b>Nombre</b></p></div>
             <div class="8u 12u$(xsmall)"><%= f.email_field :correo, placeholder:"micorreo@ejemplo.com" %></div>
-	            <div class="4u$ 12u$(xsmall)"> <%= f.submit "Enviar",  class: "fit special" %></div>
+	        <div class="4u$ 12u$(xsmall)"> <%= f.submit "Enviar",  class: "fit special" %></div>
 	    </div>
         <% end %>
 	  </div>
@@ -248,11 +220,15 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
 	    <ul class="actions">
 	      <li><a href="#banner" class="button">Volver al inicio</a></li>
 	    </ul>
-	<ul class="icons">
-	  <li><a href="https://www.facebook.com/id.labco"><%= image_tag("facebookIcon.png", :alt => "No disponible") %></a></li>
-	  <li><a href="#"><%= image_tag("instagranIcon.png", :alt => "No disponible") %></a></li>
-       <li><a href="#"><%= image_tag("correoIcon.png", :alt => "No disponible") %></a></li>
-	</ul>
+	<ul class="icons contact">
+		    <li class="fa-home">IDLab Company<br />
+								Colombia, Medellin
+			</li>
+			<li class="fa-phone">(000) 000-0000</li>
+			<li class="fa-envelope"><a href="#">information@untitled.tld</a></li>
+			<li class="fa-facebook"><a href="#"></a></li>
+			<li class="fa-instagram"><a href="#"></a></li>
+		</ul>
 	<ul class="copyright">
 	  <li>&copy; Platino Sotware. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 	</ul>
