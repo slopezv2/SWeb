@@ -3427,7 +3427,7 @@
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: #00AD4D;
 					}
 
 					#header nav ul li > ul {
@@ -3955,7 +3955,7 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #e44c65;
+						background: #00AD4D;
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;

@@ -206,10 +206,13 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
            <%=  form_for(:correo, url:correo_path, class:"container 50%" ) do |f| %>
 	    <div class="row uniform 50%">
            
-            <div class="8u 12u$(xsmall)"><%= f.text_field :nombre, placeholder:"Ej: Juan Fernandez" %></div>
-            <div class="4u$ 12u$(xsmall) fit special"><p><b>Nombre</b></p></div>
-            <div class="8u 12u$(xsmall)"><%= f.email_field :correo, placeholder:"micorreo@ejemplo.com" %></div>
-	        <div class="4u$ 12u$(xsmall)"> <%= f.submit "Enviar",  class: "fit special" %></div>
+            <div class="10u 12u$(xsmall)"><%= f.text_field :nombre, placeholder:"Ej: Juan Fernandez" %></div>
+            <div class="2u$ 12u$(xsmall) fit special"><p><b>Nombre</b></p></div>
+            <div class="10u 12u$(xsmall)"><%= f.email_field :correo, placeholder:"micorreo@ejemplo.com" %></div>
+             <div class="2u$ 12u$(xsmall) fit special"><p><b>Correo</b></p></div>
+            <div class="12u$ 12u$(xsmall) fit special"><p><b>Mensaje</b></p></div>
+            <div class="12u 12u$(xsmall)"><%= f.text_area :mensaje, placeholder:"Escriba aqui su mensaje" %></div>
+	        <div class="12u$ 12u$(xsmall)"> <%= f.submit "Enviar",  class: "fit special" %></div>
 	    </div>
         <% end %>
 	  </div>
