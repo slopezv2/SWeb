@@ -3080,6 +3080,16 @@
 		background-attachment: scroll;
 	}
 
+
+
+    div envi {
+  position: absolute;
+   
+  left: 120px;
+}
+
+
+
 /* Wrapper */
 
 	.wrapper {

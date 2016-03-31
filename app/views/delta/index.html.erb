@@ -188,7 +188,7 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
       <section id="nine" class="spotlight style2 right">
 	<div class="container">
 	  <header class="major">
-          <span class="image fit main bottom"  > <%= image_tag("Clientes1.jpeg", :alt => "No disponible") %></span>
+          <span class="image fit main bottom"  > <%= image_tag("Clientes2.jpg", :alt => "No disponible") %></span>
 	  </header>
 
 	  
@@ -209,15 +209,17 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
             <div class="4u 12u$(xsmall)"><%= f.text_field :nombre, placeholder:"Ej: Juan Fernandez" %></div>
             
             <div class="2u$ 12u$(xsmall) fit special"></div>
-            <p><b>Correo </b></p>
+            <p><b>Correo  &nbsp;</b></p>
             <div class="4u 12u$(xsmall)"><%= f.email_field :correo, placeholder:"micorreo@ejemplo.com" %></div>
              <div class="2u$ 12u$(xsmall) fit special"></div>
             <div class="12u$ 12u$(xsmall) fit special"></div>
             <p><b>Mensaje</b></p>
-            <div class="4u 12u$(xsmall)"><%= f.text_area :mensaje, placeholder:"Escriba aqui su mensaje" %></div><br>
-	        <div class="4u$ 12u$(xsmall)"> <%= f.submit "Enviar",  class: "fit special" %></div>
+            <div class="4u 12u$(xsmall)"><%= f.text_area :mensaje, placeholder:"Escriba aqui su mensaje" %></div> 
+            <div class="2u$ 12u$(xsmall) fit special"></div>
+	        <div class="2u$ 12u$(xsmall)" ><envi> <%= f.submit "Enviar",  class: "fit special" %></envi></div>
 	    </div>
         <% end %>
+          
 	  </div>
       </section>
 
@@ -226,6 +228,9 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
 	    <ul class="actions">
 	      <li><a href="#banner" class="button">Volver al inicio</a></li>
 	    </ul>
+          
+          
+          
 	<ul class="icons contact">
 		    <li class="fa-home">IDLab Company</li>
 			<li class="fa-phone">(+57) 300-888-1538</li>
