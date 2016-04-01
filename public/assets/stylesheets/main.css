@@ -3088,6 +3088,37 @@
   left: 120px;
 }
 
+div redes1 {
+  position: absolute;
+   top:130px;
+  left: 800px;
+}
+div redes2 {
+  position: absolute;
+   top:200px;
+  left: 800px;
+}
+div redes3 {
+  position: absolute;
+   top:270px;
+  left: 800px;
+}
+div redes4 {
+  position: absolute;
+   top:340px;
+  left: 800px;
+}
+div redes5 {
+  position: absolute;
+   top:410px;
+  left: 800px;
+}
+
+#santi {
+
+  position: relative;
+
+}
 
 
 /* Wrapper */

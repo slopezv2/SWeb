@@ -188,7 +188,7 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
       <section id="nine" class="spotlight style2 right">
 	<div class="container">
 	  <header class="major">
-          <span class="image fit main bottom"  > <%= image_tag("Clientes2.jpg", :alt => "No disponible") %></span>
+          <span class="image fit main bottom"  > <%= image_tag("Clientes3.jpeg", :alt => "No disponible") %></span>
 	  </header>
 
 	  
@@ -197,17 +197,19 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
       </section>
 
       <!-- ten -->
-      <section id="ten" class="wrapper style2 special fade">
-	  <div class="container">					
+      <section id="ten" class="wrapper style2 special fade ">
+	  <div class="container ">	
+          <div id="santi">
 	   <header>
            <h2><B>Contáctanos</B></h2>
-           <p><B>Por medio del correo que suministre le contactaremos</B></p>
+           <p><B>Escríbenos un mensaje con tu nombre y correo, y te contactaremos lo más pronto posible.</B></p>
 	  </header>
+                
+                        
            <%=  form_for(:correo, url:correo_path, class:"container 50%" ) do |f| %>
 	    <div class="row uniform 50%">
            <p><b>Nombre</b></p>
-            <div class="4u 12u$(xsmall)"><%= f.text_field :nombre, placeholder:"Ej: Juan Fernandez" %></div>
-            
+            <div class="4u 12u$(xsmall)"><%= f.text_field :nombre, placeholder:"Ej: Juan Fernandez" %></div> 
             <div class="2u$ 12u$(xsmall) fit special"></div>
             <p><b>Correo  &nbsp;</b></p>
             <div class="4u 12u$(xsmall)"><%= f.email_field :correo, placeholder:"micorreo@ejemplo.com" %></div>
@@ -220,6 +222,14 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
 	    </div>
         <% end %>
           
+          <ul class="icons contact"><redes1>
+		    <li class="fa-home">IDLab Company </li></redes1><br><br><br>
+			<redes2><li class="fa-phone">(+57) 300-888-1538</li></redes2><br><br><br>
+			<redes3><li class="fa-envelope"><a href="mailto:sebasdiez@idlabcompany.com">sebasdiez@idlabcompany.com</a></li></redes3><br><br><br>
+			<redes4><li class="fa-facebook"><a href="https://www.facebook.com/id.labco">https://www.facebook.com/id.labco</a></li></redes4><br><br><br>
+			<redes5><li class="fa-instagram"><a href="https://www.instagram.com/idlabco/">https://www.instagram.com/idlabco/</a></li></redes5>
+                </ul>
+          </div>
 	  </div>
       </section>
 
@@ -231,13 +241,7 @@ Así disminuye los gastos en publicidad y aumenta la imagen de su empresa, mient
           
           
           
-	<ul class="icons contact">
-		    <li class="fa-home">IDLab Company</li>
-			<li class="fa-phone">(+57) 300-888-1538</li>
-			<li class="fa-envelope"><a href="mailto:sebasdiez@idlabcompany.com">sebasdiez@idlabcompany.com</a></li>
-			<li class="fa-facebook"><a href="https://www.facebook.com/id.labco">https://www.facebook.com/id.labco</a></li>
-			<li class="fa-instagram"><a href="https://www.instagram.com/idlabco/">https://www.instagram.com/idlabco/</a></li>
-		</ul>
+	
 	<ul class="copyright">
 	  <li>&copy; Platino Sotware. All rights reserved.</li>
       <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
